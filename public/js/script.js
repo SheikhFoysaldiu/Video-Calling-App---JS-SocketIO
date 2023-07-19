@@ -1,5 +1,5 @@
 
-var socket = io.connect("http://localhost:3000");
+var socket = io.connect("https://videocall-js.onrender.com/");
 
 var videoChatForm = document.getElementById("form-container");
 var videoChatRooms = document.getElementById("video-chat-rooms");
